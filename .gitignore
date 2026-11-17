@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# local data: never commit real resumes
+resumes/
+*.pdf
+*.docx
